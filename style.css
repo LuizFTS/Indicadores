@@ -29,7 +29,8 @@ body {
 .header {
     position: relative;
     height: 13rem;
-    background-color: #0f3679;
+    /*background-color: #0f3679;*/
+    background-image: linear-gradient(to bottom right, #092453, #3971d1b4);
 }
 
 .header__title {
@@ -39,6 +40,7 @@ body {
     left: 50%;
     transform: translate(-50%,-50%);
     padding: 1.6rem;
+    box-shadow: 2px 2px 2rem rgba(48, 47, 47, 0.432);
 
     font-size: 3.8rem;
     color: whitesmoke;
@@ -324,4 +326,16 @@ body {
 #bi_6-botao:hover {
     color: rgb(255, 101, 101);
     transition: .4s;
+}
+
+.bottom {
+    background-color: rgb(46, 44, 44);
+    width: 100%;
+    text-align: center;
+}
+
+.bottom__text {
+    font-size: 1.4rem;
+    color: whitesmoke;
+    padding: 2rem;
 }
