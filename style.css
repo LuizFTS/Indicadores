@@ -28,7 +28,7 @@ body {
 
 .header {
     position: relative;
-    height: 10rem;
+    height: 13rem;
     background-color: #0f3679;
 }
 
@@ -45,14 +45,6 @@ body {
     text-align: center;
     border-radius: 1rem;
 }
-
-.depois__header {
-    position: relative;
-    height: 3rem;
-    background-color: #0f3679;
-}
-
-
 
 .body {
     margin: 1rem auto;
